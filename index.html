@@ -8,6 +8,40 @@
     <title></title>
   </head>
   <body>
-
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Celebrity Crush Quiz </h1>
+      </div>
+      <form id="crushForm">
+        <div class="form-group">
+          <label for="userAge">Enter your age here:</label>
+          <input id="userAge" class="form-control" type="number">
+        </div>
+        <label for="style">Choose your personal style:</label>
+        <select class="form-control" id="style">
+          <option>Edgy</option>
+          <option>Preppy</option>
+          <option>Jock</option>
+        </select>
+        <label for="genderPref">What do you prefer?</label>
+        <select class="form-control" id="genderPref">
+          <option>No preference</option>
+          <option>Gals</option>
+          <option>Dudes</option>
+        </select>
+        <button type="submit" class="btn btn-info">Submit</button>
+      </form>
+      <div id="crush">
+        <img id="edgyUnder" src="img/purple.jpg">
+        <img id="preppyUnder" src="img/yellow.jpg">
+        <img id="jockUnder" src="img/red.jpg">
+        <img id="edgyMale" src="img/chrisangel.jpg">
+        <img id="preppyMale" src="img/ryangosling.jpg">
+        <img id="jockMale" src="img/bradyquinn.jpg">
+        <img id="edgyFemale" src="img/margotrobbie.jpg">
+        <img id="preppyFemale" src="img/emmawatson.jpg">
+        <img id="jockFemale" src="img/simonebiles.jpg">
+      </div>
+    </div>
   </body>
 </html>
